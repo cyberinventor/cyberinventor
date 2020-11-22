@@ -20,8 +20,6 @@ ls-discovery is a tool that bruteforces a website and find hidden files and dire
 # Operating Systems tested on
 1.```kali linux```
 
-## Warning
-**this tool cannot work on windows subsystem for linux (wsl) as yet we have tested it.**<br>**but we are working on a version that can work on wsl**
 # Screenshots on how to use ls-discovery
 <br><br>
 <h1>how to start and use the wordlist in ls-discovery</h1>
