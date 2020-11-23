@@ -19,10 +19,10 @@ print(""" author:\n\u001b[31m _______________
 
 os.system('g++ read.cpp -o putlines && ./putlines')
 os.system('clear')
-os.system("printf '\033]2;ls-recovery\a'")
+os.system("printf '\033]2;ls-discovery\a'")
 class banner:
 	art =	"""
-	print('version: 1.0')
+	version: 1.0
 \u001b[1030m
 \u001b[31m██╗░░░░░░██████╗░░░░░░██████╗░██╗░██████╗░█████╗░░█████╗░██╗░░░██╗███████╗██████╗░██╗░░░██╗
 \u001b[32m██║░░░░░██╔════╝░░░░░░██╔══██╗██║██╔════╝██╔══██╗██╔══██╗██║░░░██║██╔════╝██╔══██╗╚██╗░██╔╝
@@ -85,9 +85,12 @@ getnum = open('lines.txt')
 lines = getnum
 print('\u001b[32m')
 for i in range(int(lines.readline())):
-	guess = requests.get(url+"/"+startwords.readline().strip())
-	print(guess, guess.url)
-	a = open('results.txt', 'a')
-	a.write(f"\n{guess} {guess.url}")
-
+	try:
+		guess = requests.get(url+"/"+startwords.readline().strip())
+		print(guess, guess.url)
+		a = open('results.txt', 'a')
+		a.write(f"\n{guess} {guess.url}")
+	except KeyboardInterrupt:
+		print("\u001b[32m[*]\u001b[31m Bye Bye good night!")
+		break
 print('\u001b[32m[*]\u001b[0m done discovering ')
