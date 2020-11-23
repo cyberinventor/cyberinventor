@@ -88,4 +88,11 @@ you can see the response codes or http messages on https://www.w3schools.com/tag
 <br>
 if you want to understand those numbers above visit the link https://www.w3schools.com/tags/ref_httpmessages.asp
 <br><br>
+<h1>Screenshots</h1>
+<p>On Ubuntu Wsl</p>
+<img src="http://www.mediafire.com/convkey/fc52/pil3kolu3jg06446g.jpg" alt=on ubuntu>
+<p>On Kali Linux</p>
+<img src="https://www.mediafire.com/convkey/2245/cn3tuxpvydr4yuc6g.jpg" alt='on kali linux'>
+<img src="https://www.mediafire.com/convkey/9d49/evpvmg7wu9jr0pf6g.jpg" alt='screen2.png'>
+<img src="https://www.mediafire.com/convkey/a208/ten0z81k7r87lrb6g.jpg" alt='screen3.png'>
 <h1>Please Report Any Issues Are What You Want Me to Implement.</h1>
