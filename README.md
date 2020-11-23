@@ -90,6 +90,7 @@ if you want to understand those numbers above visit the link https://www.w3schoo
 <br><br>
 <h1>Screenshots</h1>
 <p>On Ubuntu Wsl</p>
+<img src=http://www.mediafire.com/convkey/2bc1/e402vgon0i9vliu6g.jpg alt=on ubuntu>
 <img src="http://www.mediafire.com/convkey/fc52/pil3kolu3jg06446g.jpg" alt=on ubuntu>
 <p>On Kali Linux</p>
 <img src="https://www.mediafire.com/convkey/2245/cn3tuxpvydr4yuc6g.jpg" alt='on kali linux'>
